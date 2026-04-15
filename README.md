@@ -1,8 +1,10 @@
 # 等号何以拥有不成比例的力量
 
-**The Disproportionate Power of the Equal Sign**
+**The Disproportionate Power of the Equal Sign** — *第二版 / Second Edition*
 
 这是一本关于数学符号 `=` 的书稿仓库 —— 追问一个最简洁的符号如何以其"枢纽"地位，承担起组织现代数学知识的核心接口功能。
+
+> **第二版更新**：第一章新增 §1.5《一个反事实练习：如果数学从未发明等号》；校订多处参考文献（出版社、期刊名与作者信息）。
 
 本仓库同时包含：
 

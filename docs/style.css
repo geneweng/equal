@@ -177,6 +177,21 @@ a:hover {
   flex-direction: column;
 }
 
+.edition-badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 4px 10px;
+  margin: 0 0 14px;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .hero-title {
   font-family: "Noto Serif SC", "Inter", serif;
   font-size: clamp(28px, 4vw, 40px);
@@ -184,6 +199,18 @@ a:hover {
   line-height: 1.2;
   letter-spacing: -0.01em;
   margin: 0 0 10px;
+}
+
+.hero-sub-small {
+  font-size: 13px;
+  background: #f1f5f9;
+  border-left: 3px solid var(--accent);
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+.hero-sub-small strong {
+  color: var(--text);
 }
 
 .hero-book-subtitle {
@@ -316,6 +343,14 @@ a:hover {
   text-align: center;
 }
 
+.cover-edition {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: -8px;
+}
+
 .cover-eq {
   font-family: "Noto Serif SC", serif;
   font-size: 110px;
@@ -413,6 +448,20 @@ a:hover {
   font-size: 15px;
   color: var(--text);
   line-height: 1.55;
+}
+
+.toc-new {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
