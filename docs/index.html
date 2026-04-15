@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>等号何以拥有不成比例的力量</title>
+    <meta
+      name="description"
+      content="一部关于数学符号『=』的书：从1557年雷科德的发明,到压缩与接口视角下的当代意义。"
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3D%3D%3C/text%3E%3C/svg%3E" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body id="top">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#top">
+          <span class="brand-eq">=</span>
+          <span class="brand-text">等号之书</span>
+        </a>
+        <nav class="topnav">
+          <a href="#about">关于本书</a>
+          <a href="#toc">目录</a>
+          <a href="#citation">引用</a>
+          <a
+            href="https://github.com/geneweng/equal"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <div class="layout-with-sidebar">
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          <div class="sidebar-title">目录</div>
+          <ol class="sidebar-toc">
+            <li><a href="#ch-intro">导论</a></li>
+            <li><a href="#ch-1">第一章　没有等号的数学</a></li>
+            <li><a href="#ch-2">第二章　1557——雷科德与等号的发明</a></li>
+            <li><a href="#ch-3">第三章　从发明到通用</a></li>
+            <li><a href="#ch-4">第四章　等号与代数革命</a></li>
+            <li><a href="#ch-5">第五章　等号与解析几何</a></li>
+            <li><a href="#ch-6">第六章　等号与现代科学语言</a></li>
+            <li><a href="#ch-7">第七章　等号的多重语义</a></li>
+            <li><a href="#ch-8">第八章　数学为什么能够被压缩</a></li>
+            <li><a href="#ch-9">第九章　等号作为局部压缩器</a></li>
+            <li><a href="#ch-10">第十章　机器如何理解"相等"</a></li>
+            <li><a href="#ch-11">第十一章　等号之后</a></li>
+            <li><a href="#ch-epilogue">结语</a></li>
+          </ol>
+        </div>
+      </aside>
+
+      <main class="page">
+        <section class="hero">
+          <div class="hero-card">
+            <h1 class="hero-title">等号何以拥有不成比例的力量</h1>
+            <div class="hero-book-subtitle">
+              The Disproportionate Power of the Equal Sign
+            </div>
+            <div class="hero-authors">Gene Weng</div>
+            <p class="hero-sub">
+              本书追问一个最简洁的符号——"="——如何以其枢纽地位,承担起组织现代数学知识的核心接口功能。
+              全书围绕『压缩』与『接口』这一统一视角,从1557年雷科德的发明出发,
+              一路走到代数、解析几何、现代科学语言,再到当代的形式化证明与人工智能。
+            </p>
+
+            <div class="citation-info" id="citation">
+              <div class="citation-info-title">BibTeX</div>
+              <code>@book{weng2026equal,
+  title={等号何以拥有不成比例的力量},
+  author={Weng, Gene},
+  year={2026},
+  publisher={Online},
+  note={\url{https://github.com/geneweng/equal}}
+}</code>
+            </div>
+
+            <div class="cta-row">
+              <a
+                class="btn"
+                href="https://github.com/geneweng/equal/raw/main/equal_sign_book.pdf"
+                >阅读 PDF</a
+              >
+              <a
+                class="btn"
+                href="https://github.com/geneweng/equal/blob/main/manuscript_pdf.md"
+                >阅读 Markdown</a
+              >
+              <a
+                class="btn secondary"
+                href="https://github.com/geneweng/equal"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-figure">
+            <a class="cover-ph" href="#toc" title="打开目录">
+              <div class="cover-art">
+                <div class="cover-eq">=</div>
+                <div class="cover-caption">
+                  <div class="cover-caption-main">等号之书</div>
+                  <div class="cover-caption-sub">
+                    The Disproportionate<br />Power of the Equal Sign
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="cover-version" id="last-updated">Draft · 2026</div>
+          </div>
+        </section>
+
+        <section class="sections">
+          <div class="section-card" id="about">
+            <h3>关于本书</h3>
+            <p>
+              在数学的全部符号系统中,没有哪个符号比"="出现得更频繁,也没有哪个符号比它更少受到审视。
+              这本书的野心,是为这两条最常见却也最被忽视的短横线,提供一个统一的视角——
+              <strong>压缩与接口</strong>——来照亮它在历史、结构与当代实践中的内在关联。
+            </p>
+            <p>
+              本书并非一部符号史,也不是一部数学哲学专著,而是一次跨学科的尝试:
+              它在符号史、数学哲学、形式化方法与人工智能之间架起一条贯通的叙事线索,
+              希望读者合上书之后,再也无法以同样的目光看待那两条平行的短线。
+            </p>
+          </div>
+
+          <div class="section-card" id="toc">
+            <h3>目录</h3>
+            <ol class="toc">
+              <li id="ch-intro">
+                <span class="toc-num">导论</span>
+                <span class="toc-title">等号何以拥有不成比例的力量</span>
+              </li>
+              <li id="ch-1">
+                <span class="toc-num">第一章</span>
+                <span class="toc-title"
+                  >没有等号的数学——前现代"相等"观念的表达方式</span
+                >
+              </li>
+              <li id="ch-2">
+                <span class="toc-num">第二章</span>
+                <span class="toc-title">1557——雷科德与等号的发明</span>
+              </li>
+              <li id="ch-3">
+                <span class="toc-num">第三章</span>
+                <span class="toc-title"
+                  >从发明到通用——等号在近代欧洲的扩散</span
+                >
+              </li>
+              <li id="ch-4">
+                <span class="toc-num">第四章</span>
+                <span class="toc-title">等号与代数革命——从修辞到操作</span>
+              </li>
+              <li id="ch-5">
+                <span class="toc-num">第五章</span>
+                <span class="toc-title"
+                  >等号与解析几何——图形如何变成方程</span
+                >
+              </li>
+              <li id="ch-6">
+                <span class="toc-num">第六章</span>
+                <span class="toc-title"
+                  >等号与现代科学语言——从公式到定律</span
+                >
+              </li>
+              <li id="ch-7">
+                <span class="toc-num">第七章</span>
+                <span class="toc-title"
+                  >等号的多重语义——相等、恒等、定义、赋值</span
+                >
+              </li>
+              <li id="ch-8">
+                <span class="toc-num">第八章</span>
+                <span class="toc-title">数学为什么能够被压缩</span>
+              </li>
+              <li id="ch-9">
+                <span class="toc-num">第九章</span>
+                <span class="toc-title"
+                  >等号作为局部压缩器——数学表征的最小机器</span
+                >
+              </li>
+              <li id="ch-10">
+                <span class="toc-num">第十章</span>
+                <span class="toc-title">机器如何理解"相等"</span>
+              </li>
+              <li id="ch-11">
+                <span class="toc-num">第十一章</span>
+                <span class="toc-title"
+                  >等号之后——新的问题与哲学的回声</span
+                >
+              </li>
+              <li id="ch-epilogue">
+                <span class="toc-num">结语</span>
+                <span class="toc-title">在两条横线之间</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="section-card">
+            <h3>致谢</h3>
+            <p>
+              本书受益于多位朋友与同仁在不同阶段的阅读与批评。书中如仍有错误,责任全在作者。
+              欢迎通过
+              <a href="https://github.com/geneweng/equal/issues">Issues</a>
+              提出任何内容问题或修改建议。
+            </p>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div>
+            © 2026 Gene Weng ·
+            <a href="https://github.com/geneweng/equal">Source on GitHub</a>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script>
+      (function () {
+        try {
+          var d = new Date(document.lastModified || Date.now());
+          if (!isNaN(d.getTime())) {
+            var fmt = d.toLocaleDateString("zh-CN", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            });
+            var el = document.getElementById("last-updated");
+            if (el) el.textContent = "Draft · 最近更新:" + fmt;
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </body>
+</html>
